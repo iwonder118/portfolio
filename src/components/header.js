@@ -12,13 +12,13 @@ const Header = ({ }) => (
             to="/" style={{ paddingRight: "40px" }}>
             Wonder-Puffin
           </Link>
-          <Link className="navbar-item is-size-6" to="/about">
+          <Link className="navbar-item is-size-6" to="/about/">
             About
           </Link>
-          <Link className="navbar-item is-size-6 has-text-warning" to="/works">
+          <Link className="navbar-item is-size-6 has-text-warning" to="/works/">
             Works
           </Link>
-          <Link className="navbar-item is-size-6" to="/contact">
+          <Link className="navbar-item is-size-6" to="/contact/">
             Contact
           </Link>
         </div>
