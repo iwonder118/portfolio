@@ -2,19 +2,31 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <section className="hero is-fullheight">
+      <div className="hero-body has-text-centered">
+        <div className="container">
+          <h1 className="is-size-1">河村 直樹</h1>
+          <h2 className="is-size-3">Webエンジニア志望</h2>
+          <div className="columns">
+            <div className="column is-1 is-offset-5">
+              <Link className="button is-rounded is-info is-outlined" to="https://twitter.com/I_wonder16">
+                <span>Twitter</span>
+              </Link>
+            </div>
+            <div className="column is-1">
+              <Link className="button is-rounded is-dark is-outlined" to="https://github.com/iWonder118">
+                <span>GitHub</span>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </Layout>
 )
 
