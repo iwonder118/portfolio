@@ -35,7 +35,7 @@ const WorksPage = () => (
                 <a className="button is-rounded is-dark is-outlined" href="https://github.com/iWonder118/freemarket_sample_62g">
                   <span>GitHubリポジトリ</span>
                 </a>
-                <a className="button is-rounded is-white is-outlined" hred="http://3.115.198.66/" style={{ marginLeft: "20px" }}>
+                <a className="button is-rounded is-white is-outlined" href="http://3.115.198.66/" style={{ marginLeft: "20px" }}>
                   <span>サイトへのリンク</span>
                 </a>
               </div>

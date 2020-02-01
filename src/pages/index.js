@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -14,14 +13,14 @@ const IndexPage = () => (
           <h2 className="is-size-3">Webエンジニア志望</h2>
           <div className="columns">
             <div className="column is-1 is-offset-5">
-              <Link className="button is-rounded is-info is-outlined" to="https://twitter.com/I_wonder16">
+              <a className="button is-rounded is-info is-outlined" href="https://twitter.com/I_wonder16">
                 <span>Twitter</span>
-              </Link>
+              </a>
             </div>
             <div className="column is-1">
-              <Link className="button is-rounded is-dark is-outlined" to="https://github.com/iWonder118">
+              <a className="button is-rounded is-dark is-outlined" href="https://github.com/iWonder118">
                 <span>GitHub</span>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
