@@ -25,6 +25,16 @@ const AboutPage = () => (
           <Content>
             <div className="columns">
               <div className="column is-2 has-text-centered">
+                学習中/使用中の技術
+              </div>
+              <div className="column is-size-4">
+                Ruby / Ruby on Rails / jQuery / React / Gatsby / Python / AWS(EC2 / S3 / RDS / ECS / VPC / ELB / etc... ) / Docker / Circle CI / Terraform / etc..
+              </div>
+            </div>
+          </Content>
+          <Content>
+            <div className="columns">
+              <div className="column is-2 has-text-centered">
                 Description
               </div>
               <div className="column is-size-4">
