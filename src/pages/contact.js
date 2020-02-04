@@ -16,7 +16,7 @@ class ContactPage extends Component {
   handleSubmit = e => {
     e.preventDefault();
 
-    emailjs.send('gmail', process.env.EMAILJS_TEMPLATE_ID, this.state, process.env.EMAILJS_USER_ID)
+    emailjs.send('gmail', template_9rhFRlQp, this.state, user_OhGx6rvfguX6VjtrHMddY)
       .then(() => {
         alert("Success!");
         window.location.href = '/';
