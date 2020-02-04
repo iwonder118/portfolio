@@ -35,8 +35,6 @@ class ContactPage extends Component {
       color: "#fff",
       borderWidth: "2px",
     };
-    console.log(process.env.EMAILJS_TEMPLATE_ID);
-    console.log(process.env.EMAILJS_USER_ID);
     return (
       <Layout>
         <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
