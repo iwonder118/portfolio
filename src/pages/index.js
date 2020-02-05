@@ -28,7 +28,7 @@ const IndexPage = () => (
               </a>
             </div>
             <div className="column is-1">
-              <a className="button is-rounded is-success is-outlined" href="https://www.wantedly.com/user/profile">
+              <a className="button is-rounded is-success is-outlined" href="https://www.green-japan.com/">
                 <span>Green</span>
               </a>
             </div>
