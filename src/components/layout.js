@@ -22,7 +22,6 @@ const Layout = ({ children }) => {
       }
     }
   `)
-  emailjs.init("user_OhGx6rvfguX6VjtrHMddY");
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
