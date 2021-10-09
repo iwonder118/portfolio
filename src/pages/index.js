@@ -10,7 +10,7 @@ const IndexPage = () => (
       <div className="hero-body has-text-centered">
         <div className="container">
           <h1 className="is-size-1">河村 直樹</h1>
-          <h2 className="is-size-3">Webエンジニア志望</h2>
+          <h2 className="is-size-3">エンジニア</h2>
           <div className="columns">
             <div className="column is-1 is-offset-4">
               <a className="button is-rounded is-info is-outlined" href="https://twitter.com/I_wonder16">
